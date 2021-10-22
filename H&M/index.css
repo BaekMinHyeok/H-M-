@@ -1,0 +1,40 @@
+/* 노말라이즈 */
+body,ul,li{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+  }
+  a{
+    color: inherit;
+    text-decoration:none;
+  }
+  
+   /* menu */
+  
+  
+  .top-bar{
+    margin: auto;
+    padding: auto;
+    background-color:grey;
+  }
+  
+  .top-bar>.top-menu{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    justify-content:space-between;
+    margin: 0 auto;
+    position: relative;
+    
+  }
+  
+  .top-bar .logoImg div{
+    width: 100px;
+    height: 60px;  
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+  }
+
+
+  
