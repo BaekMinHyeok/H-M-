@@ -1,58 +1,138 @@
-<!DOCTYPE html>
-<html lang="ko">
+  <!DOCTYPE html>
+  <html lang="ko">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
 
-    <!-- 제이쿼리 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- 슬릭 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+      <!-- 제이쿼리 -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <!-- 슬릭 -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-
-    <link rel="stylesheet" href="index.css">
-
-
-
-<!-- <style>
-    body,ul,li{
-        margin: 0;
-    }
-
-    .box-1>.slick-slider .item img{
-        width: 100%;
-        height: block;
-    }
-</style> -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+      <!-- 써치아이콘 -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+      
+      <link rel="stylesheet" href="index.css">
 
 
-</head>
 
-<body>
-    <div class="top-bar">
-        <div class="top-menu">
-          <div class="logo">
-            <div class="logoImg">
-              <div style="background-image:url(https://www2.hm.com/hm-logo.png)">
+  </head>
+
+  <body>
+      <div class="top-bar">
+          <div class="top-menu">
+            <div class="logo">
+              <div class="logoImg">
+                <div style="background-image:url(https://www2.hm.com/hm-logo.png)">
+                </div>
               </div>
             </div>
-          </div>
-          <div class="menu">
-            <ul>
-              <li><a href="https://www2.hm.com/ko_kr/ladies.html">여성</a>
-                <div class="sub">
+            <div class="menu">
+              <ul>
+                <li><a href="https://www2.hm.com/ko_kr/ladies.html">여성</a>
+                  <div class="sub">
+                    <div class="col col1">
+                      <div class="col_block">
+                        <h5>OUTER</h5>
+                        <ul>
+                          <li><a href="#">가디건 & 풀오버</a></li>
+                          <li><a href="#">블레이저</a></li>
+                          <li><a href="#">재킷 & 코트</a></li>
+                        </ul>
+                      </div>
+                      <div class="col_block">
+                        <h5>TOP</h5>
+                        <ul>
+                          <li><a href="#">셔츠 & 블라우스</a></li>
+                          <li><a href="#">탑 &  티셔츠</a></li>
+                          <li><a href="#">맨투맨 & 후드티</a></li>
+                          <li><a href="#">니트</a></li>
+                          <li><a href="#">임부복</a></li>
+                          <li><a href="#">플러스 사이즈</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col col2">
+                      <div class="col_block">
+                        <h5>ONE  PIECE</h5>
+                        <ul>
+                          <li><a href="#">드레스</a></li>
+                          <li><a href="#">점프수트</a></li>
+                        </ul>
+                      </div>
+                      <div class="col_block">
+                        <h5>SKIRT</h5>
+                        <ul>
+                          <li><a href="#">스커트</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col col3">
+                      <div class="col_block">
+                        <h5>BOTTOMS</h5>
+                        <ul>
+                          <li><a href="#">팬츠</a></li>
+                          <li><a href="#">데님 & 진</a></li>
+                          <li><a href="#">쇼츠</a></li>
+                        </ul>
+                      </div>
+                      <div class="col_block">
+                        <h5>SPORT WEAR</h5>
+                        <ul>
+                          <li><a href="#">스포츠 웨어</a></li>
+                          <li><a href="#">수영복 & 비치웨어</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col col4">
+                      <div class="col_block">
+                        <h5>HOME</h5>
+                        <ul>
+                          <li><a href="#">라운지 웨어</a></li>
+                          <li><a href="#">나이트 웨어</a></li>
+                        </ul>
+                      </div>
+                      <div class="col_block">
+                        <h5>INNERWEAR</h5>
+                        <ul>
+                          <li><a href="#">란제리</a></li>
+                          <li><a href="#">양말 & 타이즈</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col col5">
+                      <div class="col_block">
+                        <h5>ACCESSORIES</h5>
+                        <ul>
+                          <li><a href="#">악세서리</a></li>
+                          <li><a href="#">뷰티</a></li>
+                          <li><a href="#">강아지 옷 & 악세서리</a></li>
+                        </ul>
+                      </div>
+                      <div class="col_block">
+                        <h5>NEW</h5>
+                        <ul>
+                          <li><a href="#">모두보가</a></li>
+                          <li><a href="#">의류</a></li>
+                          <li><a href="#">슈즈 & 악세서리</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>     
+                <li><a href="#">Divided</a>
+                  <div class="sub"> 
                   <div class="col col1">
-                    <div class="col_block">
+                      <div class="col_block">
                       <h5>OUTER</h5>
                       <ul>
+                        <li><a href="#">아우터</a></li>
                         <li><a href="#">가디건 & 풀오버</a></li>
-                        <li><a href="#">블레이저</a></li>
-                        <li><a href="#">재킷 & 코트</a></li>
                       </ul>
                     </div>
                     <div class="col_block">
@@ -60,10 +140,8 @@
                       <ul>
                         <li><a href="#">셔츠 & 블라우스</a></li>
                         <li><a href="#">탑 &  티셔츠</a></li>
+                        <li><a href="#">베이직 의류</a></li>
                         <li><a href="#">맨투맨 & 후드티</a></li>
-                        <li><a href="#">니트</a></li>
-                        <li><a href="#">임부복</a></li>
-                        <li><a href="#">플러스 사이즈</a></li>
                       </ul>
                     </div>
                   </div>
@@ -81,13 +159,87 @@
                         <li><a href="#">스커트</a></li>
                       </ul>
                     </div>
-                  </div>
+                  </div> 
                   <div class="col col3">
                     <div class="col_block">
                       <h5>BOTTOMS</h5>
                       <ul>
                         <li><a href="#">팬츠</a></li>
-                        <li><a href="#">데님 & 진</a></li>
+                        <li><a href="#">진</a></li>
+                        <li><a href="#">쇼츠</a></li>
+                      </ul>
+                    </div>
+                    <div class="col_block">
+                      <h5>SPORT WEAR</h5>
+                      <ul>
+                        <li><a href="#">팬츠 & 레깅스</a></li>
+                        <li><a href="#">스윔웨어</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col col4">
+                      <div class="col_block">
+                        <h5>HOME</h5>
+                        <ul>
+                          <li><a href="#">라운지 웨어</a></li>
+                          <li><a href="#">언더웨어 & 나이트 웨어</a></li>
+                        </ul>
+                      </div>
+                      <div class="col_block">
+                        <h5>INNERWEAR</h5>
+                        <ul>
+                          <li><a href="#">란제리</a></li>
+                          <li><a href="#">양말 & 타이즈</a></li>
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="col col5">
+                      <div class="col_block">
+                        <h5>ACCESSORIES</h5>
+                        <ul>
+                          <li><a href="#">악세서리</a></li>
+                          <li><a href="#">뷰티</a></li>
+                          <li><a href="#">신발</a></li>
+                        </ul>
+                      </div>
+                      <div class="col_block">
+                        <h5>NEW</h5>
+                        <ul>
+                          <li><a href="#">모두보기</a></li>
+                          <li><a href="#">의류</a></li>
+                          <li><a href="#">슈즈 & 악세서리</a></li>
+                        </ul>
+                      </div>
+                  </div>
+                  </div>
+                </li>
+                <li><a href="#">남성</a>
+                  <div class="sub"> 
+                    <div class="col col1">
+                      <div class="col_block">
+                        <h5>OUTER</h5>
+                      <ul>
+                        <li><a href="#">가디건 & 니트</a></li>
+                        <li><a href="#">아우터</a></li>
+                        <li><a href="#">자켓 & 수트</a></li>
+                      </ul>
+                    </div>
+                    <div class="col_block">
+                        <h5>TOP</h5>
+                      <ul>
+                        <li><a href="#">셔츠</a></li>
+                        <li><a href="#">티셔츠 & 탱크탑</a></li>
+                        <li><a href="#">베이직</a></li>
+                        <li><a href="#">후디 & 스웨트셔츠</a></li>
+                      </ul>
+                    </div>
+                    </div>
+                    <div class="col col2">
+                    <div class="col_block">
+                      <h5>BOTTOMS</h5>
+                      <ul>
+                        <li><a href="#">팬츠</a></li>
+                        <li><a href="#">데님</a></li>
                         <li><a href="#">쇼츠</a></li>
                       </ul>
                     </div>
@@ -98,8 +250,8 @@
                         <li><a href="#">수영복 & 비치웨어</a></li>
                       </ul>
                     </div>
-                  </div>
-                  <div class="col col4">
+                    </div> 
+                    <div class="col col3">
                     <div class="col_block">
                       <h5>HOME</h5>
                       <ul>
@@ -110,620 +262,468 @@
                     <div class="col_block">
                       <h5>INNERWEAR</h5>
                       <ul>
-                        <li><a href="#">란제리</a></li>
-                        <li><a href="#">양말 & 타이즈</a></li>
+                        <li><a href="#">언더웨어</a></li>
+                        <li><a href="#">양말</a></li>
                       </ul>
                     </div>
+                    </div>
+                    <div class="col col4">
+                      <div class="col_block">
+                        <h5>ACCESSORIES</h5>
+                        <ul>
+                          <li><a href="#">악세서리</a></li>
+                          <li><a href="#">신발</a></li>
+                        </ul>
+                      </div>
+                      <div class="col_block">
+                        <h5>NEW</h5>
+                        <ul>
+                          <li><a href="#">모두보기</a></li>
+                          <li><a href="#">의류</a></li>
+                          <li><a href="#">슈즈 & 악세서리</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col col5">
+                      <div class="col_block">
+                        <h5>Seasonal Trending</h5>
+                        <ul>
+                          <li><a href="#">City Boys</a></li>
+                          <li><a href="#">Blank Staples</a></li>
+                          <li><a href="#">상하의 세트</a></li>
+                          <li><a href="#">Multipacks</a></li>
+                          <li><a href="#">뮤직, 무비 & 로고</a></li>
+                          <li><a href="#">상품별 구매</a></li>
+                          <li><a href="#">모두 보기</a></li>
+                        </ul>
+                      </div>  
+                    </div>
+                    <div class="col col6">
+                      <div class="col_block">
+                        <ul>
+                          <li>
+                            <a href="#"><h5>Premium Selection</h5></a>
+                          </li>           
+                        </ul>
+                      </div>
+                      <div class="col_block">
+                        <h5>Shop By Concept</h5>
+                        <ul>
+                          <li><a href="#">H&M MAN</a></li>
+                          <li><a href="#">모던 클래식</a></li>
+                          <li><a href="#">캐주얼룩</a></li>
+                          <li><a href="#">Divided</a></li>
+                          <li><a href="#">베이직</a></li>
+                        </ul>
+                      </div>
                   </div>
-                  <div class="col col5">
-                    <div class="col_block">
-                      <h5>ACCESSORIES</h5>
+                  </div>
+                  </li>
+                <li><a href="#">신생아/유아</a>
+                  <div class="sub"> 
+                    <div class="col col1">
+                      <div class="col_block">
+                        <h5>Baby</h5>
                       <ul>
-                        <li><a href="#">악세서리</a></li>
-                        <li><a href="#">뷰티</a></li>
-                        <li><a href="#">강아지 옷 & 악세서리</a></li>
-                      </ul>
-                    </div>
-                    <div class="col_block">
-                      <h5>NEW</h5>
-                      <ul>
-                        <li><a href="#">모두보가</a></li>
+                        <li><a href="#">모두보기</a></li>
+                        <li><a href="#">신제품</a></li>
                         <li><a href="#">의류</a></li>
-                        <li><a href="#">슈즈 & 악세서리</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-               </li>     
-              <li><a href="#">Divided</a>
-                <div class="sub"> 
-                 <div class="col col1">
-                    <div class="col_block">
-                    <h5>OUTER</h5>
-                    <ul>
-                      <li><a href="#">아우터</a></li>
-                      <li><a href="#">가디건 & 풀오버</a></li>
-                    </ul>
-                  </div>
-                  <div class="col_block">
-                    <h5>TOP</h5>
-                    <ul>
-                      <li><a href="#">셔츠 & 블라우스</a></li>
-                      <li><a href="#">탑 &  티셔츠</a></li>
-                      <li><a href="#">베이직 의류</a></li>
-                      <li><a href="#">맨투맨 & 후드티</a></li>
-                    </ul>
-                  </div>
-                 </div>
-                 <div class="col col2">
-                  <div class="col_block">
-                    <h5>ONE  PIECE</h5>
-                    <ul>
-                      <li><a href="#">드레스</a></li>
-                      <li><a href="#">점프수트</a></li>
-                    </ul>
-                  </div>
-                  <div class="col_block">
-                    <h5>SKIRT</h5>
-                    <ul>
-                      <li><a href="#">스커트</a></li>
-                    </ul>
-                  </div>
-                 </div> 
-                 <div class="col col3">
-                  <div class="col_block">
-                    <h5>BOTTOMS</h5>
-                    <ul>
-                      <li><a href="#">팬츠</a></li>
-                      <li><a href="#">진</a></li>
-                      <li><a href="#">쇼츠</a></li>
-                    </ul>
-                  </div>
-                  <div class="col_block">
-                    <h5>SPORT WEAR</h5>
-                    <ul>
-                      <li><a href="#">팬츠 & 레깅스</a></li>
-                      <li><a href="#">스윔웨어</a></li>
-                    </ul>
-                  </div>
-                 </div>
-                 <div class="col col4">
-                    <div class="col_block">
-                      <h5>HOME</h5>
-                      <ul>
-                        <li><a href="#">라운지 웨어</a></li>
-                        <li><a href="#">언더웨어 & 나이트 웨어</a></li>
-                      </ul>
-                    </div>
-                    <div class="col_block">
-                      <h5>INNERWEAR</h5>
-                      <ul>
-                        <li><a href="#">란제리</a></li>
-                        <li><a href="#">양말 & 타이즈</a></li>
-                      </ul>
-                    </div>
-                 </div>
-                 <div class="col col5">
-                    <div class="col_block">
-                      <h5>ACCESSORIES</h5>
-                      <ul>
                         <li><a href="#">악세서리</a></li>
-                        <li><a href="#">뷰티</a></li>
+                        <li><a href="#">아우터</a></li>
                         <li><a href="#">신발</a></li>
                       </ul>
                     </div>
+                    </div>
+                    <div class="col col2">
                     <div class="col_block">
-                      <h5>NEW</h5>
+                      <h5>Baby Girls</h5>
                       <ul>
                         <li><a href="#">모두보기</a></li>
+                        <li><a href="#">신제품</a></li>
                         <li><a href="#">의류</a></li>
-                        <li><a href="#">슈즈 & 악세서리</a></li>
+                        <li><a href="#">아우터</a></li>
+                        <li><a href="#">악세서리</a></li>
+                        <li><a href="#">신발</a></li>
                       </ul>
                     </div>
-                 </div>
-                </div>
-              </li>
-               <li><a href="#">남성</a>
-                <div class="sub"> 
-                  <div class="col col1">
-                     <div class="col_block">
-                      <h5>OUTER</h5>
-                     <ul>
-                       <li><a href="#">가디건 & 니트</a></li>
-                       <li><a href="#">아우터</a></li>
-                       <li><a href="#">자켓 & 수트</a></li>
-                     </ul>
-                   </div>
-                   <div class="col_block">
-                      <h5>TOP</h5>
-                     <ul>
-                       <li><a href="#">셔츠</a></li>
-                       <li><a href="#">티셔츠 & 탱크탑</a></li>
-                       <li><a href="#">베이직</a></li>
-                       <li><a href="#">후디 & 스웨트셔츠</a></li>
-                     </ul>
-                   </div>
-                  </div>
-                  <div class="col col2">
-                   <div class="col_block">
-                    <h5>BOTTOMS</h5>
-                     <ul>
-                       <li><a href="#">팬츠</a></li>
-                       <li><a href="#">데님</a></li>
-                       <li><a href="#">쇼츠</a></li>
-                     </ul>
-                   </div>
-                   <div class="col_block">
-                    <h5>SPORT WEAR</h5>
-                     <ul>
-                       <li><a href="#">스포츠 웨어</a></li>
-                       <li><a href="#">수영복 & 비치웨어</a></li>
-                     </ul>
-                   </div>
-                  </div> 
-                  <div class="col col3">
-                   <div class="col_block">
-                    <h5>HOME</h5>
-                     <ul>
-                       <li><a href="#">라운지 웨어</a></li>
-                       <li><a href="#">나이트 웨어</a></li>
-                     </ul>
-                   </div>
-                   <div class="col_block">
-                    <h5>INNERWEAR</h5>
-                     <ul>
-                       <li><a href="#">언더웨어</a></li>
-                       <li><a href="#">양말</a></li>
-                     </ul>
-                   </div>
-                  </div>
-                  <div class="col col4">
-                     <div class="col_block">
-                      <h5>ACCESSORIES</h5>
-                       <ul>
-                         <li><a href="#">악세서리</a></li>
-                         <li><a href="#">신발</a></li>
-                       </ul>
-                     </div>
-                     <div class="col_block">
-                      <h5>NEW</h5>
-                       <ul>
-                         <li><a href="#">모두보기</a></li>
-                         <li><a href="#">의류</a></li>
-                         <li><a href="#">슈즈 & 악세서리</a></li>
-                       </ul>
-                     </div>
-                  </div>
-                  <div class="col col5">
-                     <div class="col_block">
-                      <h5>Seasonal Trending</h5>
-                       <ul>
-                         <li><a href="#">City Boys</a></li>
-                         <li><a href="#">Blank Staples</a></li>
-                         <li><a href="#">상하의 세트</a></li>
-                         <li><a href="#">Multipacks</a></li>
-                         <li><a href="#">뮤직, 무비 & 로고</a></li>
-                         <li><a href="#">상품별 구매</a></li>
-                         <li><a href="#">모두 보기</a></li>
-                       </ul>
-                     </div>  
-                  </div>
-                  <div class="col col6">
-                    <div class="col_block">
-                      <ul>
-                        <li>
-                          <a href="#"><h5>Premium Selection</h5></a>
-                        </li>           
-                      </ul>
-                    </div>
-                    <div class="col_block">
-                      <h5>Shop By Concept</h5>
-                      <ul>
-                        <li><a href="#">H&M MAN</a></li>
-                        <li><a href="#">모던 클래식</a></li>
-                        <li><a href="#">캐주얼룩</a></li>
-                        <li><a href="#">Divided</a></li>
-                        <li><a href="#">베이직</a></li>
-                      </ul>
-                    </div>
-                 </div>
-                 </div>
-                </li>
-              <li><a href="#">신생아/유아</a>
-                <div class="sub"> 
-                  <div class="col col1">
-                     <div class="col_block">
-                      <h5>Baby</h5>
-                     <ul>
-                       <li><a href="#">모두보기</a></li>
-                       <li><a href="#">신제품</a></li>
-                       <li><a href="#">의류</a></li>
-                       <li><a href="#">악세서리</a></li>
-                       <li><a href="#">아우터</a></li>
-                       <li><a href="#">신발</a></li>
-                     </ul>
-                   </div>
-                  </div>
-                  <div class="col col2">
-                   <div class="col_block">
-                    <h5>Baby Girls</h5>
-                     <ul>
-                       <li><a href="#">모두보기</a></li>
-                       <li><a href="#">신제품</a></li>
-                       <li><a href="#">의류</a></li>
-                       <li><a href="#">아우터</a></li>
-                       <li><a href="#">악세서리</a></li>
-                       <li><a href="#">신발</a></li>
-                     </ul>
-                   </div>
-                  </div> 
-                  <div class="col col3">
-                   <div class="col_block">
-                    <h5>Baby boys</h5>
-                     <ul>
-                       <li><a href="#">모두보기</a></li>
-                       <li><a href="#">신제품</a></li>
-                       <li><a href="#">의류</a></li>
-                       <li><a href="#">아우터</a></li>
-                       <li><a href="#">악세서리</a></li>
-                       <li><a href="#">신발</a></li>
-                     </ul>
-                   </div>
-                  </div>
-                  <div class="col col4">
-                     <div class="col_block">
-                      <h5>Shop By Product </h5>
-                       <ul>
-                         <li><a href="#">모두보기</a></li>
-                         <li><a href="#">신제품</a></li>
-                         <li><a href="#">의류</a></li>
-                         <li><a href="#">아우터</a></li>
-                         <li><a href="#">악세서리</a></li>
-                         <li><a href="#">신발</a></li>
-                       </ul>
-                     </div>
-                  </div>
-                  <div class="col col5">
-                     <div class="col_block">
-                      <h5>Popular Now</h5>
-                       <ul>
-                         <li><a href="#">베이비 & 키즈 익스클루시브 가을 겨울 컬렉션</a></li>
-                         <li><a href="#">실속있는 멀티팩 세트</a></li>
-                         <li><a href="#">캐릭터 제품</a></li>
-                         <li><a href="#">베이직 샵</a></li>
-                       </ul>
-                     </div>  
-                  </div>
-                 </div>
-              </li>
-              <li><a href="#">아동</a>
-                <div class="sub"> 
-                  <div class="col col1">
-                     <div class="col_block">
-                     <h5>Girls</h5>
-                     <ul>
-                       <li><a href="#">모두보기</a></li>
-                       <li><a href="#">신제품</a></li>
-                       <li><a href="#">의류</a></li>
-                       <li><a href="#">아우터</a></li>
-                       <li><a href="#">악세서리</a></li>
-                       <li><a href="#">신발</a></li>
-                       <li><a href="#">코스튬</a></li>
-                       <li><a href="#">스포츠웨어</a></li>
-                     </ul>
-                   </div>
-                  </div>
-                  <div class="col col2">
-                   <div class="col_block">
-                     <h5>Boys</h5>
-                     <ul>
-                       <li><a href="#">모두보기</a></li>
-                       <li><a href="#">신제품</a></li>
-                       <li><a href="#">의류</a></li>
-                       <li><a href="#">아우터</a></li>
-                       <li><a href="#">악세사리</a></li>
-                       <li><a href="#">신발</a></li>
-                       <li><a href="#">스포츠웨어</a></li>
-                     </ul>
-                   </div>
-                  </div> 
-                  <div class="col col3">
-                   <div class="col_block">
-                     <h5>Shop By Product </h5>
-                     <ul>
-                       <li><a href="#">모두보기</a></li>
-                       <li><a href="#">신제품</a></li>
-                       <li><a href="#">의류</a></li>
-                       <li><a href="#">아우터</a></li>
-                       <li><a href="#">악세서리</a></li>
-                       <li><a href="#">신발</a></li>
-                       <li><a href="#">스포츠웨어</a></li>
-                     </ul>
-                   </div>
-                   <div class="col_block">
-                     <h5>SPORT WEAR</h5>
-                     <ul>
-                       <li><a href="#">팬츠 & 레깅스</a></li>
-                       <li><a href="#">스윔웨어</a></li>
-                     </ul>
-                   </div>
-                  </div>
-                  <div class="col col4">
-                     <div class="col_block">
-                       <h5>Popular Now</h5>
-                       <ul>
-                         <li><a href="#">가을 니트웨어 12,900원 부터</a></li>
-                         <li><a href="#">베이비 & 키즈 익스클루시브 가을 겨울 컬렉션</a></li>
-                         <li><a href="#">키즈 홈웨어 & 베이직, 파자마, 언더웨어</a></li>
-                         <li><a href="#">할로윈</a></li>
-                       </ul>
-                     </div>
-                     <div class="col_block">
-                       <h5>기획상품</h5>
-                       <ul>
-                         <li><a href="#">아동 맨투맨 세트가 기간 한정 24,900원</a></li>
-                       </ul>
-                     </div>
-                     <div class="col_block">
-                      <h5>아이방 </h5>
-                      <ul>
-                        <li><a href="#">모두보기</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                 </div>
-              </li>
-              <li><a href="#">H&M HOME</a>
-              <div class="sub"> 
-                  <div class="col col1">
-                     <div class="col_block">
-                     <h5>New Arrivals</h5>
-                     <ul>
-                       <li><a href="#">HOME 인테리어 신제품</a></li> 
-                     </ul>
-                   </div>
-                   <div class="col_block">
-                    <h5>Shop By Room</h5>
-                    <ul>
-                      <li><a href="#">침실</a></li>
-                      <li><a href="#">거실 인테리어</a></li>
-                      <li><a href="#">키친</a></li>
-                      <li><a href="#">아이방</a></li>
-                      <li><a href="#">욕실</a></li>
-                      <li><a href="#">아웃도어</a></li> 
-                    </ul>
-                  </div>
-                  </div>
-                  <div class="col col2">
-                   <div class="col_block">
-                     <h5>Seasonal Trending</h5>
-                     <ul>
-                       <li><a href="#">할로윈</a></li>
-                       <li><a href="#">강아지 옷 & 악세서리</a></li>
-                       <li><a href="#">홈웨어</a></li>
-                       <li><a href="#">크리스마스 기획전</a></li>
-                     </ul>
-                   </div>
-                  </div> 
-                  <div class="col col3">
-                   <div class="col_block">
-                     <h5>Shop By Product </h5>
-                     <ul>
-                       <li><a href="#">모두보기</a></li>
-                       <li><a href="#">데코레이션</a></li>
-                       <li><a href="#">쿠션 & 쿠션커버</a></li>
-                       <li><a href="#">베드 린넨</a></li>
-                       <li><a href="#">유틸리티 용품 & 식기류</a></li>
-                       <li><a href="#">요리용품 & 베이킹 용품</a></li>
-                       <li><a href="#">가정용 용품 보관함 & 수납용품</a></li>
-                       <li><a href="#">베쓰 & 샤워 악세서리</a></li>
-                       <li><a href="#">담요</a></li>
-                       <li><a href="#">커튼</a></li>
-                       <li><a href="#">러그</a></li>
-                       <li><a href="#">홈웨어</a></li>
-                     </ul>
-                   </div>
-                  </div>
-                  <div class="col col4">
-                     <div class="col_block">
-                       <h5>Shop By Concept</h5>
-                       <ul>
-                         <li><a href="#">Classic Collection</a></li>
-                         <li><a href="#">프리미엄 컬렉션</a></li>
-                       </ul>
-                     </div>
-                     <div class="col_block">
-                       <h5>기획상품</h5>
-                       <ul>
-                         <li><a href="#">아동 맨투맨 세트가 기간 한정 24,900원</a></li>
-                       </ul>
-                     </div>
-                     <div class="col_block">
-                      <h5>아이방 </h5>
-                      <ul>
-                        <li><a href="#">모두보기</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                 </div>
-              </li>
-              <li><a href="#">Sale</a>
-                <div class="sub"> 
-                  <div class="col col1">
-                     <div class="col_block">
-                     <h5>Women</h5>
-                     <ul>
-                       <li><a href="#">모두보기</a></li>
-                       <li><a href="#">아우터</a></li>
-                       <li><a href="#">탑</a></li>
-                       <li><a href="#">팬츠</a></li>
-                       <li><a href="#">스커트</a></li>
-                       <li><a href="#">원피스</a></li>
-                       <li><a href="#">이너웨어</a></li>
-                       <li><a href="#">스포츠웨어</a></li>
-                       <li><a href="#">신발</a></li>
-                       <li><a href="#">악세서리</a></li>
-                     </ul>
-                   </div>
-                  </div>
-                  <div class="col col2">
-                   <div class="col_block">
-                     <h5>Divided</h5>
-                     <ul>
-                       <li><a href="#">모두보기</a></li>
-                       <li><a href="#">아우터</a></li>
-                       <li><a href="#">탑</a></li>
-                       <li><a href="#">팬츠</a></li>
-                       <li><a href="#">스커트</a></li>
-                       <li><a href="#">원피스</a></li>
-                       <li><a href="#">이너웨어</a></li>
-                       <li><a href="#">스포츠웨어</a></li>
-                       <li><a href="#">신발</a></li>
-                       <li><a href="#">악세서리</a></li>
-                     </ul>
-                   </div>
-                  </div> 
-                  <div class="col col3">
-                   <div class="col_block">
-                     <h5>Men</h5>
-                     <ul>
-                       <li><a href="#">모두보기</a></li>
-                       <li><a href="#">아우터</a></li>
-                       <li><a href="#">탑</a></li>
-                       <li><a href="#">팬츠</a></li>
-                       <li><a href="#">이너웨어</a></li>
-                       <li><a href="#">스포츠웨어</a></li>
-                       <li><a href="#">신발</a></li>
-                       <li><a href="#">악세서리</a></li>
-                     </ul>
-                   </div>
-                  </div>
-                  <div class="col col4">
-                     <div class="col_block">
-                       <h5>Baby</h5>
-                       <ul>
-                         <li><a href="#">모두보기</a></li>
-                         <li><a href="#">신생아</a></li>
-                         <li><a href="#">여아</a></li>
-                         <li><a href="#">남아</a></li>
-                         <li><a href="#">마지막 기회</a></li>
-                       </ul>
-                     </div>
-                     <div class="col_block">
-                       <h5>Kids</h5>
-                       <ul>
-                         <li><a href="#">모두보기</a></li>
-                         <li><a href="#">여아</a></li>
-                         <li><a href="#">남아</a></li>
-                         <li><a href="#">마지막 기회</a></li>
-                       </ul>
-                     </div> 
-                  </div>
-                  <div class="col col5">
-                    <div class="col_block">
-                      <h5>H&M Home</h5>
-                      <ul>
-                        <li><a href="#">모두보기</a></li>
-                        <li><a href="#">마지막 기회</a></li>
-                        <li><a href="#">침실</a></li>
-                        <li><a href="#">거실</a></li>
-                        <li><a href="#">욕실</a></li>
-                        <li><a href="#">키즈룸</a></li>
-                        <li><a href="#">주방</a></li>
-                        <li><a href="#">아웃도어</a></li>
-                      </ul>
-                    </div>
-                    <div class="col_block">
-                      <h5>Kids</h5>
-                      <ul>
-                        <li><a href="#">모두보기</a></li>
-                        <li><a href="#">여아</a></li>
-                        <li><a href="#">남아</a></li>
-                        <li><a href="#">마지막 기회</a></li>
-                      </ul>
                     </div> 
-                 </div>
-                 </div>
-              </li>
-              <li><a href="#">지속가능성</a>
+                    <div class="col col3">
+                    <div class="col_block">
+                      <h5>Baby boys</h5>
+                      <ul>
+                        <li><a href="#">모두보기</a></li>
+                        <li><a href="#">신제품</a></li>
+                        <li><a href="#">의류</a></li>
+                        <li><a href="#">아우터</a></li>
+                        <li><a href="#">악세서리</a></li>
+                        <li><a href="#">신발</a></li>
+                      </ul>
+                    </div>
+                    </div>
+                    <div class="col col4">
+                      <div class="col_block">
+                        <h5>Shop By Product </h5>
+                        <ul>
+                          <li><a href="#">모두보기</a></li>
+                          <li><a href="#">신제품</a></li>
+                          <li><a href="#">의류</a></li>
+                          <li><a href="#">아우터</a></li>
+                          <li><a href="#">악세서리</a></li>
+                          <li><a href="#">신발</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col col5">
+                      <div class="col_block">
+                        <h5>Popular Now</h5>
+                        <ul>
+                          <li><a href="#">베이비 & 키즈 익스클루시브 가을 겨울 컬렉션</a></li>
+                          <li><a href="#">실속있는 멀티팩 세트</a></li>
+                          <li><a href="#">캐릭터 제품</a></li>
+                          <li><a href="#">베이직 샵</a></li>
+                        </ul>
+                      </div>  
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">아동</a>
+                  <div class="sub"> 
+                    <div class="col col1">
+                      <div class="col_block">
+                      <h5>Girls</h5>
+                      <ul>
+                        <li><a href="#">모두보기</a></li>
+                        <li><a href="#">신제품</a></li>
+                        <li><a href="#">의류</a></li>
+                        <li><a href="#">아우터</a></li>
+                        <li><a href="#">악세서리</a></li>
+                        <li><a href="#">신발</a></li>
+                        <li><a href="#">코스튬</a></li>
+                        <li><a href="#">스포츠웨어</a></li>
+                      </ul>
+                    </div>
+                    </div>
+                    <div class="col col2">
+                    <div class="col_block">
+                      <h5>Boys</h5>
+                      <ul>
+                        <li><a href="#">모두보기</a></li>
+                        <li><a href="#">신제품</a></li>
+                        <li><a href="#">의류</a></li>
+                        <li><a href="#">아우터</a></li>
+                        <li><a href="#">악세사리</a></li>
+                        <li><a href="#">신발</a></li>
+                        <li><a href="#">스포츠웨어</a></li>
+                      </ul>
+                    </div>
+                    </div> 
+                    <div class="col col3">
+                    <div class="col_block">
+                      <h5>Shop By Product </h5>
+                      <ul>
+                        <li><a href="#">모두보기</a></li>
+                        <li><a href="#">신제품</a></li>
+                        <li><a href="#">의류</a></li>
+                        <li><a href="#">아우터</a></li>
+                        <li><a href="#">악세서리</a></li>
+                        <li><a href="#">신발</a></li>
+                        <li><a href="#">스포츠웨어</a></li>
+                      </ul>
+                    </div>
+                    <div class="col_block">
+                      <h5>SPORT WEAR</h5>
+                      <ul>
+                        <li><a href="#">팬츠 & 레깅스</a></li>
+                        <li><a href="#">스윔웨어</a></li>
+                      </ul>
+                    </div>
+                    </div>
+                    <div class="col col4">
+                      <div class="col_block">
+                        <h5>Popular Now</h5>
+                        <ul>
+                          <li><a href="#">가을 니트웨어 12,900원 부터</a></li>
+                          <li><a href="#">베이비 & 키즈 익스클루시브 가을 겨울 컬렉션</a></li>
+                          <li><a href="#">키즈 홈웨어 & 베이직, 파자마, 언더웨어</a></li>
+                          <li><a href="#">할로윈</a></li>
+                        </ul>
+                      </div>
+                      <div class="col_block">
+                        <h5>기획상품</h5>
+                        <ul>
+                          <li><a href="#">아동 맨투맨 세트가 기간 한정 24,900원</a></li>
+                        </ul>
+                      </div>
+                      <div class="col_block">
+                        <h5>아이방 </h5>
+                        <ul>
+                          <li><a href="#">모두보기</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">H&M HOME</a>
                 <div class="sub"> 
-                  <div class="col col1">
-                     <div class="col_block">
-                     <h5>H&M이 하는일</h5>
-                     <ul>
-                       <li><a href="#">The latest</a></li>
-                       <li><a href="#">Let's change</a></li>
-                       <li><a href="#">Let's innovate</a></li>
-                       <li><a href="#">Let's be fair</a></li>
-                       <li><a href="#">Let's be for all</a></li>
-                       <li><a href="#">Let's be transparent</a></li>
-                       <li><a href="#">Let's clean up</a></li>
-                       <li><a href="#">Let's close the loop</a></li>
-                       <li><a href="#">다른 사람들의 칭찬</a></li>
-                     </ul>
-                   </div>
+                    <div class="col col1">
+                      <div class="col_block">
+                      <h5>New Arrivals</h5>
+                      <ul>
+                        <li><a href="#">HOME 인테리어 신제품</a></li> 
+                      </ul>
+                    </div>
+                    <div class="col_block">
+                      <h5>Shop By Room</h5>
+                      <ul>
+                        <li><a href="#">침실</a></li>
+                        <li><a href="#">거실 인테리어</a></li>
+                        <li><a href="#">키친</a></li>
+                        <li><a href="#">아이방</a></li>
+                        <li><a href="#">욕실</a></li>
+                        <li><a href="#">아웃도어</a></li> 
+                      </ul>
+                    </div>
+                    </div>
+                    <div class="col col2">
+                    <div class="col_block">
+                      <h5>Seasonal Trending</h5>
+                      <ul>
+                        <li><a href="#">할로윈</a></li>
+                        <li><a href="#">강아지 옷 & 악세서리</a></li>
+                        <li><a href="#">홈웨어</a></li>
+                        <li><a href="#">크리스마스 기획전</a></li>
+                      </ul>
+                    </div>
+                    </div> 
+                    <div class="col col3">
+                    <div class="col_block">
+                      <h5>Shop By Product </h5>
+                      <ul>
+                        <li><a href="#">모두보기</a></li>
+                        <li><a href="#">데코레이션</a></li>
+                        <li><a href="#">쿠션 & 쿠션커버</a></li>
+                        <li><a href="#">베드 린넨</a></li>
+                        <li><a href="#">유틸리티 용품 & 식기류</a></li>
+                        <li><a href="#">요리용품 & 베이킹 용품</a></li>
+                        <li><a href="#">가정용 용품 보관함 & 수납용품</a></li>
+                        <li><a href="#">베쓰 & 샤워 악세서리</a></li>
+                        <li><a href="#">담요</a></li>
+                        <li><a href="#">커튼</a></li>
+                        <li><a href="#">러그</a></li>
+                        <li><a href="#">홈웨어</a></li>
+                      </ul>
+                    </div>
+                    </div>
+                    <div class="col col4">
+                      <div class="col_block">
+                        <h5>Shop By Concept</h5>
+                        <ul>
+                          <li><a href="#">Classic Collection</a></li>
+                          <li><a href="#">프리미엄 컬렉션</a></li>
+                        </ul>
+                      </div>
+                      <div class="col_block">
+                        <h5>기획상품</h5>
+                        <ul>
+                          <li><a href="#">아동 맨투맨 세트가 기간 한정 24,900원</a></li>
+                        </ul>
+                      </div>
+                      <div class="col_block">
+                        <h5>아이방 </h5>
+                        <ul>
+                          <li><a href="#">모두보기</a></li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col col2">
-                   <div class="col_block">
-                     <h5>H&M의 제품</h5>
-                     <ul>
-                       <li><a href="#">Conscious products explained</a></li>
-                       <li><a href="#">여성</a></li>
-                       <li><a href="#">신생아/유아</a></li>
-                       <li><a href="#">아동</a></li>
-                       <li><a href="#">남성</a></li>
-                       <li><a href="#">H&M HOME</a></li>
-                       <li><a href="#">Divided</a></li>
-                     </ul>
-                   </div>
-                  </div> 
-                  <div class="col col3">
-                   <div class="col_block">
-                     <h5>H&M  Take Care</h5>
-                     <ul>
-                       <li><a href="#">수선, 리폼, 업그레이드</a></li>
-                     </ul>
-                   </div>
-                   <div class="col_block">
-                    <h5>H&M의 약속 </h5>
-                    <ul>
-                      <li><a href="#">H&M의 약속</a></li>
-                      <li><a href="#">H&M Group Sustainability Strategy</a></li>
-                      <li><a href="#">H&M Group Sustainability Report</a></li>
-                      <li><a href="#">H&M Foundation</a></li>
-                    </ul>
+                </li>
+                <li><a href="#">Sale</a>
+                  <div class="sub"> 
+                    <div class="col col1">
+                      <div class="col_block">
+                      <h5>Women</h5>
+                      <ul>
+                        <li><a href="#">모두보기</a></li>
+                        <li><a href="#">아우터</a></li>
+                        <li><a href="#">탑</a></li>
+                        <li><a href="#">팬츠</a></li>
+                        <li><a href="#">스커트</a></li>
+                        <li><a href="#">원피스</a></li>
+                        <li><a href="#">이너웨어</a></li>
+                        <li><a href="#">스포츠웨어</a></li>
+                        <li><a href="#">신발</a></li>
+                        <li><a href="#">악세서리</a></li>
+                      </ul>
+                    </div>
+                    </div>
+                    <div class="col col2">
+                    <div class="col_block">
+                      <h5>Divided</h5>
+                      <ul>
+                        <li><a href="#">모두보기</a></li>
+                        <li><a href="#">아우터</a></li>
+                        <li><a href="#">탑</a></li>
+                        <li><a href="#">팬츠</a></li>
+                        <li><a href="#">스커트</a></li>
+                        <li><a href="#">원피스</a></li>
+                        <li><a href="#">이너웨어</a></li>
+                        <li><a href="#">스포츠웨어</a></li>
+                        <li><a href="#">신발</a></li>
+                        <li><a href="#">악세서리</a></li>
+                      </ul>
+                    </div>
+                    </div> 
+                    <div class="col col3">
+                    <div class="col_block">
+                      <h5>Men</h5>
+                      <ul>
+                        <li><a href="#">모두보기</a></li>
+                        <li><a href="#">아우터</a></li>
+                        <li><a href="#">탑</a></li>
+                        <li><a href="#">팬츠</a></li>
+                        <li><a href="#">이너웨어</a></li>
+                        <li><a href="#">스포츠웨어</a></li>
+                        <li><a href="#">신발</a></li>
+                        <li><a href="#">악세서리</a></li>
+                      </ul>
+                    </div>
+                    </div>
+                    <div class="col col4">
+                      <div class="col_block">
+                        <h5>Baby</h5>
+                        <ul>
+                          <li><a href="#">모두보기</a></li>
+                          <li><a href="#">신생아</a></li>
+                          <li><a href="#">여아</a></li>
+                          <li><a href="#">남아</a></li>
+                          <li><a href="#">마지막 기회</a></li>
+                        </ul>
+                      </div>
+                      <div class="col_block">
+                        <h5>Kids</h5>
+                        <ul>
+                          <li><a href="#">모두보기</a></li>
+                          <li><a href="#">여아</a></li>
+                          <li><a href="#">남아</a></li>
+                          <li><a href="#">마지막 기회</a></li>
+                        </ul>
+                      </div> 
+                    </div>
+                    <div class="col col5">
+                      <div class="col_block">
+                        <h5>H&M Home</h5>
+                        <ul>
+                          <li><a href="#">모두보기</a></li>
+                          <li><a href="#">마지막 기회</a></li>
+                          <li><a href="#">침실</a></li>
+                          <li><a href="#">거실</a></li>
+                          <li><a href="#">욕실</a></li>
+                          <li><a href="#">키즈룸</a></li>
+                          <li><a href="#">주방</a></li>
+                          <li><a href="#">아웃도어</a></li>
+                        </ul>
+                      </div>
+                      <div class="col_block">
+                        <h5>Kids</h5>
+                        <ul>
+                          <li><a href="#">모두보기</a></li>
+                          <li><a href="#">여아</a></li>
+                          <li><a href="#">남아</a></li>
+                          <li><a href="#">마지막 기회</a></li>
+                        </ul>
+                      </div> 
                   </div>
                   </div>
-                 </div>
-              </li> 
-            </ul>
-          </div>
-          <div class="side-menu">
-            <ul>
-              <li class="item">
-             
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <a href="#">즐겨찾기</a>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <a href="#">쇼핑백(0)</a>
-              </li>
-            </ul>
-      
-          </div>
-          <div class="search-menu">
-            <ul>
-              <li>제품검색</li>
-            </ul>
+                </li>
+                <li><a href="#">지속가능성</a>
+                  <div class="sub"> 
+                    <div class="col col1">
+                      <div class="col_block">
+                      <h5>H&M이 하는일</h5>
+                      <ul>
+                        <li><a href="#">The latest</a></li>
+                        <li><a href="#">Let's change</a></li>
+                        <li><a href="#">Let's innovate</a></li>
+                        <li><a href="#">Let's be fair</a></li>
+                        <li><a href="#">Let's be for all</a></li>
+                        <li><a href="#">Let's be transparent</a></li>
+                        <li><a href="#">Let's clean up</a></li>
+                        <li><a href="#">Let's close the loop</a></li>
+                        <li><a href="#">다른 사람들의 칭찬</a></li>
+                      </ul>
+                    </div>
+                    </div>
+                    <div class="col col2">
+                    <div class="col_block">
+                      <h5>H&M의 제품</h5>
+                      <ul>
+                        <li><a href="#">Conscious products explained</a></li>
+                        <li><a href="#">여성</a></li>
+                        <li><a href="#">신생아/유아</a></li>
+                        <li><a href="#">아동</a></li>
+                        <li><a href="#">남성</a></li>
+                        <li><a href="#">H&M HOME</a></li>
+                        <li><a href="#">Divided</a></li>
+                      </ul>
+                    </div>
+                    </div> 
+                    <div class="col col3">
+                    <div class="col_block">
+                      <h5>H&M  Take Care</h5>
+                      <ul>
+                        <li><a href="#">수선, 리폼, 업그레이드</a></li>
+                      </ul>
+                    </div>
+                    <div class="col_block">
+                      <h5>H&M의 약속 </h5>
+                      <ul>
+                        <li><a href="#">H&M의 약속</a></li>
+                        <li><a href="#">H&M Group Sustainability Strategy</a></li>
+                        <li><a href="#">H&M Group Sustainability Report</a></li>
+                        <li><a href="#">H&M Foundation</a></li>
+                      </ul>
+                    </div>
+                    </div>
+                  </div>
+                </li> 
+              </ul>
+            </div>
+            <div class="side-menu">
+              <div class="search-menu">
+                <ul>
+                  <li>
+                    <span class="ico-1"><i class="fas fa-search"></i></span>
+                    <a href="">제품검색</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="sub-menu">
+              <ul>
+                <li>
+                <a href="#">로그인</a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a href="#">즐겨찾기</a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a href="#">쇼핑백(0)</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+
           </div>
         </div>
-      </div>  
-<script src="index.js"></script>
-</body>
+        
+        <div class="main_slider">
+          <div class="text_box"></div>
+         <div class="img_box"></div>
+        </div>
+  <!-- <script src="index.js"></script> -->
+  </body>
 
-</html>
+  </html>

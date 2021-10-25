@@ -13,7 +13,7 @@ body,ul,li{
   
   
   .top-bar{
-    background-color:#000;
+    background-color:transparent;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -43,7 +43,7 @@ body,ul,li{
   .top-bar .menu>ul{
     float: left;
     padding: 13px 0px 0px 35px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .top-bar .menu>ul>li{
     display: inline-block;
@@ -54,10 +54,10 @@ body,ul,li{
   .top-bar .menu>ul>li>a{
    font-weight: 700;
    text-transform: uppercase;
-   border: 1px solid green;
+   /* border: 1px solid green; */
   }
 
-  .top-bar .menu>ul>li>a .sub/* 노말라이즈 */
+/* 노말라이즈 */
 body,ul,li{
     margin: 0;
     padding: 0;
@@ -72,18 +72,18 @@ body,ul,li{
   
   
   .top-bar{
-    background-color:#000;
+    background-color:transparent;
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
-    box-shadow: 0 1px 0 0 #C6C6C6;
+    box-shadow: inherit;
   }
   
   .top-bar .top-menu{
     display: flex;
     justify-content:space-between;
-    width: 1200px;
+    width: 1600px;
     height: 120px;
     margin: 0 auto;
     padding: 16px 0px;
@@ -102,27 +102,30 @@ body,ul,li{
   .top-bar .menu>ul{
     float: left;
     padding: 13px 0px 0px 35px;
-    border: 1px solid red;
+    margin-right: 100px;
+    /* border: 1px solid red; */
   }
   .top-bar .menu>ul>li{
     display: inline-block;
     vertical-align: top;
-    margin-right: 18px;
+    margin-right: 30px;
   }
 
   .top-bar .menu>ul>li>a{
    font-weight: 700;
    text-transform: uppercase;
-   border: 1px solid green;
+   /* border: 1px solid green; */
   }
 
   .top-bar .menu>ul>li> .sub{
-   border: 1px solid blue;
+   /* border: 1px solid blue; */
    height: auto;
    position: absolute;
    width: 1000px;
    top: 78px;
-   background-color: #000;
+   background-color:inherit;
+   margin-left: -100px;
+   display: none;
   }
 
   .top-bar .menu>ul>li> .sub .col{
@@ -135,20 +138,36 @@ body,ul,li{
   }
 
   .top-bar .menu>ul>li> .sub .col .col_block h5{
-    font-size: 1px;
+    font-size: 15px;
+  }
+
+  .top-bar .menu>ul>li> .sub .col .col_block ul li{
+    margin-top: 6px;
+  }
+  .top-bar .menu>ul>li> .sub .col .col_block ul li a{
+    padding: 6px 0 6px 0;
   }
 
 
+ .top-bar .side-menu { 
+   display: flex;
+ }
+
+ .top-bar .side-menu .sub-menu{
+   display: flex;
+ }
 
 
-   /* 줄 태그 임시 */
-  /* #header #head_wrap .navArea:after {
-    content: '';
-    display: block;
+  .main_slider>.img_box{
     width: 100%;
-    height: 0 ;
-    clear: both;
-} */
+    height: 937px;
+    background-image: url("../../H&M image/section1/main1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+ 
 
 
 
