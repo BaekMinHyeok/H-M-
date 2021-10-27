@@ -9,6 +9,328 @@ body,ul,li{
     color: inherit;
     text-decoration:none;
   }
+
+/* 라이브러리 */
+.block {
+display:block;
+}
+
+.inline-block {
+display:inline-block;
+}
+
+.absolute-left {
+position:absolute;
+left:0;
+}
+
+.absolute-right {
+position:absolute;
+right:0;
+}
+
+.absolute-bottom {
+position:absolute;
+bottom:0;
+}
+
+.absolute-top {
+position:absolute;
+top:0;
+}
+
+.absolute-center {
+position:absolute;
+left:50%;
+transform:translateX(-50%);
+}
+
+.absolute-middle {
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+}
+
+.absolute-middle.absolute-center {
+position:absolute;
+top:50%;
+left:50%;
+transform:translateX(-50%) translateY(-50%);
+}
+
+.relative {
+position:relative;
+}
+
+.cell {
+float:left;
+box-sizing:border-box;
+}
+
+.cell-right {
+float:right;
+box-sizing:border-box;
+}
+
+.row::after {
+content:"";
+display:block;
+clear:both;
+}
+
+.clear-both {
+clear:both;
+}
+
+.img-box > img {
+width:100%;
+display:block;
+}
+
+.con {
+margin-left:auto;
+margin-right:auto;
+}
+
+.margin-0-auto {
+margin-left:auto;
+margin-right:auto;
+}
+
+.text-align-center {
+text-align:center;
+}
+
+.text-align-right {
+text-align:right;
+}
+
+.line-height-0 {
+line-height:0;
+}
+
+.line-height-0 > * {
+line-height:normal;
+}
+
+.width-30px {
+width:30px;
+}
+
+.width-35px {
+width:35px;
+}
+
+.width-40px {
+width:35px;
+}
+
+.width-45px {
+width:35px;
+}
+
+.width-50px {
+width:50px;
+}
+
+.width-80px {
+width:80px;
+}
+
+.width-100px {
+width:100px;
+}
+
+.width-100p {
+width:100%;
+}
+
+.width-60p {
+width:60%;
+}
+
+.width-55p {
+width:55%;
+}
+
+.width-50p {
+width:50%;
+}
+
+.width-45p {
+width:45%;
+}
+
+.width-40p {
+width:40%;
+}
+
+.width-30p {
+width:30%;
+}
+
+.width-35p {
+width:35%;
+}
+
+.width-100p-except-30px {
+width:calc(100% - 30px);
+}
+
+.width-100p-except-35px {
+width:calc(100% - 35px);
+}
+
+.width-100p-except-40px {
+width:calc(100% - 40px);
+}
+
+.width-100p-except-50px {
+width:calc(100% - 50px);
+}
+
+.width-100p-except-80px {
+width:calc(100% - 80px);
+}
+
+.width-100p-except-100px {
+width:calc(100% - 100px);
+}
+
+.height-100p {
+height:100%;
+}
+
+.height-50p {
+height:50%;
+}
+
+.border-box {
+box-sizing:border-box;
+}
+
+.font-size-dot-8rem {
+font-size:.8rem;
+}
+
+.table-row {
+display:table;
+}
+
+.table-row.row::after {
+display:inline;
+clear:non;
+}
+
+.table-row > .cell {
+float:none;
+display:table-cell;
+}
+
+.border-red {
+border:10px solid red;
+}
+
+.border-green {
+border:10px solid green;
+}
+
+.border-blue {
+border:10px solid blue;
+}
+
+.border-gold {
+border:10px solid gold;
+}
+
+.border-pink {
+border:10px solid pink;
+}
+
+/* 라이브러리 - flex */
+* > .flex {
+display:flex;
+}
+
+* > .flex-grow-1 {
+flex-grow:1;
+}
+
+* > .flex-jc-c {
+justify-content:center;
+}
+
+* > .flex-jc-s {
+justify-content:flex-start;
+}
+
+* > .flex-jc-e {
+justify-content:flex-end;
+}
+
+* > .flex-jc-sb {
+justify-content:space-between;
+}
+
+* > .flex-ai-c {
+align-items:center;
+}
+
+* > .flex-ai-s {
+align-items:flex-start;
+}
+
+* > .flex-ai-e {
+align-items:flex-end;
+}
+
+* > .flex-as-s {
+align-self:stretch;
+}
+
+* > .flex-as-c {
+align-self:center;
+}
+
+* > .flex-as-s {
+align-self:flex-start;
+}
+
+* > .flex-as-e {
+align-self:flex-end;
+}
+
+* > .flex-column-nowrap {
+flex-flow:column nowrap;
+}
+
+* > .flex-column-wrap {
+flex-flow:column wrap;
+}
+
+* > .flex-row-wrap {
+flex-flow:row wrap;
+}
+
+.flex-ch-basis-0 > * {
+flex-basis:0;
+}
+
+* > .flex-1-0-0 {
+flex:1 0 0;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-red{
+  background-color: red;
+}
+
+
+
+   /* 커스텀 */
    /* menu */
   
   
@@ -18,6 +340,9 @@ body,ul,li{
     top: 0px;
     left: 0px;
     width: 100%;
+    height: 120px;
+    /* overflow: hidden; */
+    transition: 0.3 ease-in;
   }
   
   .top-bar .top-menu{
@@ -26,9 +351,6 @@ body,ul,li{
     width: 1800px;
     height: 120px;
     margin: 0 auto;
-    padding: 16px 0px;
-    position: relative;
-    
   }
   
   .top-bar .logoImg div{
@@ -38,16 +360,16 @@ body,ul,li{
     background-repeat: no-repeat;
     background-position:center;
   }
-
   .top-bar .menu>ul{
-    float: left;
-    padding: 13px 0px 0px 35px;
+    justify-content: space-between;
     /* border: 1px solid red; */
   }
   .top-bar .menu>ul>li{
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 18px;
+    display: flex;
+    align-items: center;
+    margin: auto 18px;
+    position: relative;
+    float: left;
   }
 
   .top-bar .menu>ul>li>a{
@@ -61,19 +383,27 @@ body,ul,li{
    height: auto;
    position: absolute;
    width: 1000px;
-   top: 78px;
-   background-color:inherit;
+   top: 60px;
+   left: 50%;
    margin-left: -100px;
-   display: none;
+   
+   
+   opacity: 0;
+   transition: 0.3s 0.2s;
+  }
+  .top-bar .menu>ul>li> .sub .col_block{
+    white-space: nowrap;
+  }
+  .top-bar >.top-menu >.menu>ul>li> a:hover+div{
+    opacity: 1;
+    background-color: #fff;
+    color: #222;
   }
 
   .top-bar .menu>ul>li> .sub .col{
     float: left;
     width: 25%;
     min-height: 100px;
-  }
-  .top-bar .menu>ul>li> .sub .col .col_block{
-    padding: 15px 0;
   }
 
   .top-bar .menu>ul>li> .sub .col .col_block h5{
@@ -90,8 +420,29 @@ body,ul,li{
 
  .top-bar .side-menu { 
    display: flex;
-   margin: 10px 0;
  }
+
+ .top-bar .side-menu .search-menu  li{
+   position: relative;
+ }
+ .top-bar .side-menu .search-menu  li span{
+   position: absolute;
+   margin-top: 3px;
+ }
+ .top-bar .side-menu .search-menu  li .ico-1{
+   font-size: 20px;
+ }
+
+ .top-bar .side-menu .search-menu input{
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #fff;
+  padding: 10px 15px 8px 30px;
+ }
+ input::-webkit-input-placeholder { color: #fff; }
 
  .top-bar .side-menu .sub-menu{
    display: flex;
@@ -101,10 +452,12 @@ body,ul,li{
  }
 
 
+
+
   .main-slider>.main-img01>.img_box{
     width: 100%;
-    height: 937px;
-    background-image: url("../H&M/H&M image/section1/main1.jpg");
+    height: 950px;
+    background-image: url("../H&M/img/section1/main1.jpg");
     /* background-image: url('https://lp2.hm.com/hmgoepprod?set=width[960],quality[80],options[limit]&source=url[https://www2.hm.com/content/dam/ladies_s04/magazine-2021-s04/5024-betty-1688x1126-3.jpg]&scale=width[global.width],height[15000],options[global.options]&sink=format[jpg],quality[global.quality]'); */
     background-size: cover;
     background-repeat: no-repeat;
@@ -113,8 +466,8 @@ body,ul,li{
 
   .main-slider .main-img02>.img_box{
     width: 100%;
-    height: 937px;
-    background-image: url('../H&M/H&M image/section1/main2.jpg');
+    height: 1020px;
+    background-image: url('../H&M/img/section1/main2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -122,7 +475,7 @@ body,ul,li{
   .main-slider .main-img03>.img_box {
     width: 100%;
     height: 937px;
-    background-image: url('../H&M/H&M image/section1/main3.jpg');
+    background-image: url('../H&M/img/section1/main3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
