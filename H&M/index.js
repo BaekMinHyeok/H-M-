@@ -1,13 +1,3 @@
-// $(document).ready(function(){
-// var $firstmenu = $('top-menu>menu >ul>li'),
-//     $header=$('top-bar');
-//     $firstmenu.mouseenter(function(){
-//      $header.stop().animate({height:'450px'},200);
-//     })
-//     .mouseleave(function(){
-//         $header.stop().animate({height:'120px'},200);
-//     })
-// });
 
 $(document).ready(function(){
     var $firstmenu = $('top-menu>menu>ul>li>a'),
@@ -21,3 +11,13 @@ $(document).ready(function(){
      
      
  });
+
+ $(document).ready(function(){
+    $('.main-slider').slick({
+      dots: true,
+      autoplay: true,
+      autoplaySpeed: 5000,
+      fade: false,
+    //   pauseOnHover: false,
+    });
+});
