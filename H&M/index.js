@@ -1,5 +1,5 @@
 
-
+//  슬릭 슬라이더
  $(document).ready(function(){
     $('.main-slider').slick({
       dots: true,
@@ -21,7 +21,7 @@
 
     $('.category-box .woman').mouseover(function(){
       $('.category-box .img-box').css({
-        "background-image":"url(../H&M/img/section2/Kategorie.jpeg)",
+        "background-image":"url(./img/section2/Kategorie.jpeg)",
         "transition":"0.5s",
         "background-repeat":"no-repeat",
         "background-size":"cover",
@@ -49,7 +49,7 @@
     
     $('.category-box .man').mouseover(function(){
       $('.category-box .img-box').css({
-        "background-image":"url(../H&M/img/section2/man1.jpg)",
+        "background-image":"url(./img/section2/man1.jpg)",
         "transition":"0.5s",
         "background-repeat":"no-repeat",
         "background-size":"cover",
@@ -61,7 +61,7 @@
     });
     $('.category-box .man').mouseout(function(){
       $('.category-box .img-box').css({
-        "background-image":"url(../H&M/img/section2/h&m-main.jpg)",
+        "background-image":"url(./img/section2/h&m-main.jpg)",
         "background-repeat":"no-repeat",
         "background-size":"cover",
         "background-position":"center",
@@ -77,7 +77,7 @@
 // 카테고리박스03
 $('.category-box .kids').mouseover(function(){
   $('.category-box .img-box').css({
-    "background-image":"url(../H&M/img/section2/kid.jpeg)",
+    "background-image":"url(./img/section2/kid.jpeg)",
     "transition":"0.5s",
     "background-repeat":"no-repeat",
     "background-size":"cover",
@@ -89,7 +89,7 @@ $('.category-box .kids').mouseover(function(){
 });
 $('.category-box .kids').mouseout(function(){
   $('.category-box .img-box').css({
-    "background-image":"url(../H&M/img/section2/h&m-main.jpg)",
+    "background-image":"url(./img/section2/h&m-main.jpg)",
     "background-repeat":"no-repeat",
     "background-size":"cover",
     "background-position":"center",
@@ -105,7 +105,7 @@ $('.category-box .kids').mouseout(function(){
       // 카테고리박스04
       $('.category-box .home').mouseover(function(){
         $('.category-box .img-box').css({
-          "background-image":"url(../H&M/img/section2/h&m-home.jpg)",
+          "background-image":"url(./img/section2/h&m-home.jpg)",
           "transition":"0.5s",
           "background-repeat":"no-repeat",
           "background-size":"cover",
@@ -117,7 +117,7 @@ $('.category-box .kids').mouseout(function(){
       });
       $('.category-box .home').mouseout(function(){
         $('.category-box .img-box').css({
-          "background-image":"url(../H&M/img/section2/h&m-main.jpg)",
+          "background-image":"url(./img/section2/h&m-main.jpg)",
           "background-repeat":"no-repeat",
           "background-size":"cover",
           "background-position":"center",
